@@ -130,7 +130,7 @@ class Sprite {
   }
 }
 
-export class jsgame{
+export class Stage{
   constructor() {
     this.canvas = null;
     this.renderer = null;
