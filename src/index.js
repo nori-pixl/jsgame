@@ -130,7 +130,7 @@ class Sprite {
   }
 }
 
-export class Stage {
+export class jsgame{
   constructor() {
     this.canvas = null;
     this.renderer = null;
@@ -211,7 +211,7 @@ export class Stage {
     osc.stop(ctx.currentTime + duration);
   }
 
-  whenGreenFlagClicked() {
+  onstart() {
     this._initializedPromise.then(() => {
       window.addEventListener('resize', () => this.resize());
       this.lastTime = performance.now();
